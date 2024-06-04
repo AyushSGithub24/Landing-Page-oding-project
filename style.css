@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: auto;
+    
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.footer {
+  color: white;  
+  background-color: #1F2937;
+  text-align: center;
+  height: 36px;
+  padding-top: 20px;
+  
+}
+.logo {
+    padding: 20px;
+}
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading {
+    font-size: 35px;
+    color: aliceblue;
+    font-weight: 800;
+}
+.header {
+    display: flex;
+    background-color: #1F2937;
+    padding: auto;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    list-style-type: none;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #1F2937;
+    height: fit-content;
+    color: aliceblue;
+    gap: 40px;
+    padding-bottom: 10PX;
+    padding-left: 35px;
+}
+button {
+    color: white;
+    background-color: rgb(42, 148, 230);
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 12px;
+}
+#but{
+    background-color: #3882f6;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    height: 40px;
+    width: 85px;
+    font-size: large;
+    box-sizing: content-box;
+}
+img {
+    border-radius: 16px;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.quotes {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    padding: 50px;
+}
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px;
+}
+
+.Action {
+    background-color: #3882f6;
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    border-radius: 16px;
+    color: aliceblue;
+    font-size: x-large;
+}
